@@ -1,8 +1,8 @@
 gSchool - personal project - natalie gregory
 
-project_title: project-grange
+project_title: project-mytown
 
-problem:
+Problem:
 rural communities are struggling to survive, let alone prosper. with the evolution of technology, high gas prices, BIG
 agriculture and corporate sprawl the heartland of america is at risk. in the not so distant past local
 communities communicated through party lines, local radio, TV and newspapers. however, due to the rapid expansion of
@@ -12,7 +12,7 @@ bulletin board at the local coffee shop or super-market. talk about going back i
 communities struggle with identity. technology has certainly created new challenges for rural communities, and it
 also presents many opportunities.
 
-background:
+Background:
 history does indeed repeat itself and the challenges facing rural communities are not new. following the end of the
 Civil War (1867) a cooperative farmers movement swept rural America in the mid-1870s. farmers' protested in the South
 and Midwest states against economic hardship and exploitation. and the Grange Halls were born. in general, Grange Halls
@@ -33,22 +33,22 @@ the Granage set up credit unions, insurance programs, and other services that re
 addition to providing a place for locals to get together for dances, holiday picnics, and town meetings they
 sponsored helped sparsely populated communities forge a sense of identity.
 
-solution:
+Solution:
 Provide rural communities with a modern grange that fulfills the role of the grange hall from the turn of the century.
 in the spirit of the grange hall this project aims to use technology to deliver a "simple structure" community that
 can be accessed from a computer or other mobile device.
 
-mission:
+Mission:
 to provide a path to increase economic opportunity and improve the quality of life for all rural Americans.
 
-objective:
+Objective:
 create an online grange hall. use modern technology to provide a space for people and their community to
 band together to promote the economic and political well-being of their community and agriculture.
 
 * Community includes: the people, municipality, small business, home-based business, farm, ranch, education, creatives,
 etc.
 
-goals:
+Goals:
 - have an intuitive, responsive website that integrates UX best practices.
 - design a modern look and feel that caters to a rural demographic.
 - establish a position as the leader in using technology to catalyze rural economic growth and development.
@@ -56,17 +56,16 @@ goals:
 - have a 10% user interaction increase by the end of the 1st quarter.
 - have web driven revenue.
 
-approach:
-I. Scope
+Approach:
 - project scope.
 - assess requirements.
-- develop stories.
 - create wireframes.
+- develop stories.
 
-requirements:
+Requirements:
 - user authentication, user must create an account to post.
-- must accommodate multiple types of users.
-- search capabilities.
+- must accommodate multiple types of users (business owner, town administrator, general user, etc.)
+- search capabilities: by town, by multiple town, by subject area, etc.
 - section 508 compliance.
 - any person with an account can post information.
 
