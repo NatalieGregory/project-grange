@@ -34,11 +34,12 @@ addition to providing a place for locals to get together for dances, holiday pic
 sponsored helped sparsely populated communities forge a sense of identity.
 
 solution:
-Provide rural communities with a modern solution that fulfills the role of the granges from the turn of the century.
-This project aims to deliver an online community that can be accessed from a computer or other mobile device.
+Provide rural communities with a modern grange that fulfills the role of the grange hall from the turn of the century.
+in the spirit of the grange hall this project aims to use technology to deliver a "simple structure" community that
+can be accessed from a computer or other mobile device.
 
 mission:
-to provide pathways increase economic opportunity and improve the quality of life for all rural Americans
+to provide a path to increase economic opportunity and improve the quality of life for all rural Americans.
 
 objective:
 create an online grange hall. use modern technology to provide a space for people and their community to
@@ -48,8 +49,12 @@ band together to promote the economic and political well-being of their communit
 etc.
 
 goals:
-
-expected_outcomes:
+- have an intuitive, responsive website that integrates UX best practices.
+- design a modern look and feel that caters to a rural demographic.
+- establish a position as the leader in using technology to catalyze rural economic growth and development.
+- obtain five percent increase in web traffic each month for the first three months following launch.
+- have a 10% user interaction increase by the end of the 1st quarter.
+- have web driven revenue.
 
 approach:
 I. Scope
@@ -58,10 +63,17 @@ I. Scope
 - develop stories.
 - create wireframes.
 
+requirements:
+- user authentication, user must create an account to post.
+- must accommodate multiple types of users.
+- search capabilities.
+- section 508 compliance.
+- any person with an account can post information.
+
 
 ******* gSchool_project_information ******
 
-project_requirements:
+gSchool_project_requirements:
 - 2 commits per week at least
 - User authentication (this can be only an Admin side to put content in)
 - 2-4 models that interrelate
