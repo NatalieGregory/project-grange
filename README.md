@@ -68,6 +68,7 @@ Requirements:
 - search capabilities: by town, by multiple town, by subject area, etc.
 - section 508 compliance.
 - any person with an account can post information.
+- accept payment from users for add-on services such as marketplace ads, enhanced profile options, etc.
 
 
 ******* gSchool_project_information ******
