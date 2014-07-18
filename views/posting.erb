@@ -1,0 +1,9 @@
+<h3>All Postings</h3>
+<ul>
+  <% @posting.each do |posting| %>
+    <li>
+      <%= posting.name %>
+    </li>
+  <% end %>
+</ul>
+<a href="/">Back to Home</a>
