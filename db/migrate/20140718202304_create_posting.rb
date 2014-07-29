@@ -1,13 +1,14 @@
 class CreatePosting < ActiveRecord::Migration
-  def up
+  def change
     create_table :posting do |t|
       t.string :name
       t.string :email
-      t.string :username
+      t.string :phone
+      t.string :title
+      t.string :description
       t.string :encrypted_password
+      t.timestamps
     end
   end
-  def down
-    drop_table :posting
-  end
 end
+

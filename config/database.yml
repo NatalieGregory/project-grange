@@ -1,6 +1,11 @@
+# This file configures your local database.
+# This file assumes that postgres is installed, running on localhost, and that there is a database called ‘mytown_postings’.  $PG_USER and $PG_PASS are environment variables to define in the bash profile that contains postgres username and password.  You could just put the username and password directly into this file but that’s never good practice.
+
 development:
   adapter: postgresql
-  database: development
+  encoding: unicode
+  database: mytown_postings
   username: <%= ENV['PG_USER'] %>
   password: <%= ENV['PG_PASS'] %>
   host: localhost
+

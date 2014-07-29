@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyTown</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <h1>MyTown</h1>
+  <% if flash[:error] %>
+    <%= flash[:error] %><br>
+  <% end %>
+  <%= yield %>
+  <style>
+    background-image: https://drive.google.com/?tab=mo&authuser=0#folders/0B6U2flh3_SJLaEpjMk5xNi1rVUE ("wood.jpeg");
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    li {
+      float: left;
+    }
+
+    a:link, a:visited {
+      display: block;
+      width: 300px;
+      font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+      font-weight: normal;
+      color: #ffffff;
+      background-color: #00b2b4;
+      text-align: left;
+      padding: 4px;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+
+    a:hover, a:active {
+      background-color: #00b2b4;
+    }
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+</body>
+<footer>
+  <p>Copyright 2014 | Natalie Gregory | The P3 Group</p>
+</footer>
+</html>

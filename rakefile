@@ -1,2 +1,4 @@
+# This file configures the rake utility, which we’ll use to run migrations on the database to create the tables we’ll need for this example.
+
 require './app'
 require 'sinatra/activerecord/rake'

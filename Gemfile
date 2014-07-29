@@ -1,3 +1,5 @@
+# Gemfile manages your gems, and must be up to date before deploying to Heroku.
+
 source "https://rubygems.org"
 
 gem "sinatra"
