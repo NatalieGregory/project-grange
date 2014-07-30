@@ -1,8 +1,11 @@
 ENV["RACK_ENV"] = "test"
+require "user_database"
 
 require "capybara/rspec"
 
 require "./app"
-require "capybara/rspec"
 
-Capybara.app = App
+Capybara.app =
+
+
+gem "sinatra-activerecord"

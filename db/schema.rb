@@ -11,30 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140718202304) do
-
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
-  create_table "posting", force: true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "phone"
-    t.string   "title"
-    t.string   "description"
-    t.string   "encrypted_password"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "events", force: true do |t|
-    t.text "title"
-    t.text "date"
-    t.text "location"
-    t.text "street_address"
-    t.text "city"
-    t.text "state"
-    t.text "zip"
-  end
-
-end
+# ActiveRecord::Schema.define(version: 20140718202304) do
+#
+#   # These are extensions that must be enabled in order to support this database
+#   enable_extension "plpgsql"
+#
+#   create_table "posting", force: true do |t|
+#     t.string   "name"
+#     t.string   "email"
+#     t.string   "phone"
+#     t.string   "title"
+#     t.string   "description"
+#     t.string   "encrypted_password"
+#     t.datetime "created_at"
+#     t.datetime "updated_at"
+#   end
+#
+#   create_table "events", force: true do |t|
+#     t.text "title"
+#     t.text "date"
+#     t.text "location"
+#     t.text "street_address"
+#     t.text "city"
+#     t.text "state"
+#     t.text "zip"
+#   end
+#
+# end

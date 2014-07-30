@@ -2,25 +2,69 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require './config/environments' #dbase configuration
 
-class Posting < ActiveRecord::Base
-end
+class App < Sinatra::Base
+  set :sessions => true
 
-get '/' do
-  erb :index
-end
-
-post '/submit' do
-  @posting = Posting.new(params[:posting])
-  if @posting.save
-    redirect '/posting'
-  else
-    "Sorry, there was an error!"
+  def initialize
+    super
+    @user_database = UserDatabase.new
   end
 
-  get '/posting' do
-    @posting = Posting.all
-    erb :posting
+  register do
+    def auth (type)
+      condition do
+        redirect "/login" unless send("is_#{type}?")
+      end
+    end
   end
+
+  helpers do
+    def is_user?
+      @user != nil
+    end
+  end
+
+  before do
+    @user = User.get(session[:user_id])
+  end
+
+  get "/" do
+    "Hello, anonymous."
+    # erb :index, :layout => :layout
+  end
+
+  get "/protected", :auth => :user do
+    "Hello, #{@user.name}."
+  end
+
+  post "/login" do
+    session[:user_id] = User.authenticate(params).id
+  end
+
+  get "/logout" do
+    session[:user_id] = nil
+  end
+
+
+# class Posting < ActiveRecord::Base
+# end
+#
+# get '/' do
+#   erb :index
+# end
+#
+# post '/submit' do
+#   @posting = Posting.new(params[:posting])
+#   if @posting.save
+#     redirect '/posting'
+#   else
+#     "Sorry, there was an error!"
+#   end
+#
+#   get '/posting' do
+#     @posting = Posting.all
+#     erb :posting
+#   end
 
 # get '/posting' do
 #   @posting = posting.all
